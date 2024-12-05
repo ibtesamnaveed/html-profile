@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6dd5fa, #2980b9);
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            animation: fadeInDown 2s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2rem;
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        .icons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            animation: bounce 3s infinite;
+        }
+
+        .icons img {
+            width: 50px;
+            transition: transform 0.3s;
+        }
+
+        .icons img:hover {
+            transform: scale(1.2);
+        }
+
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #1abc9c;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            animation: fadeIn 3s;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #16a085;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hi, I'm Ibtesam Naveed 👋</h1>
+    <p>A passionate BS Software Engineering student and C++ enthusiast 🚀</p>
+    <p>I love learning new technologies and building awesome projects 💻</p>
+
+    <div class="icons">
+        <a href="https://github.com/YourGitHubUsername">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/YourLinkedInUsername/">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+        </a>
+        <a href="https://twitter.com/YourTwitterHandle">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+        </a>
+    </div>
+
+    <a href="mailto:your.email@example.com" class="btn">Contact Me 📬</a>
+</body>
+
+</html>
